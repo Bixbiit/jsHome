@@ -6,6 +6,6 @@ let sum = 0;
 let count = 1;
 
 while(count <= 20) {
-    sum = sum + count
+    sum = sum + count 
     count = count + 1
 }
