@@ -35,4 +35,10 @@ const gallery = {
   'The Scream': 'Edvard Munch',
 }
 
-function updateGallery() {}
+ function updateGallery(gallery, param, svoisvto) {
+   if (gallery.hasOwnProperty(param)){
+     gallery[param] = svoisvto
+   } else {
+     gallery[param] = svoisvto
+   }
+ }
